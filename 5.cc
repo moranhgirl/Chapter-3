@@ -1,6 +1,6 @@
 #include <iostream>
-#define M 3;
-#define N 4;
+#define M 3
+#define N 4
 using namespace std;
 
 class REVARR
@@ -8,7 +8,7 @@ class REVARR
 private:
 int a[M][N];
 public:
-REVARR(int x[M][N];
+REVARR(int x[M][N]);
 void reverse();
 void show();
 };
@@ -40,9 +40,9 @@ for(i=0;i<=M;i++)
 
 main()
 {
-int data[M][N]={1,3,2,4,,5,6,8,7,9,10,12,11};
+int data[M][N]={1,3,2,4,5,6,8,7,9,10,12,11};
 REVARR a(data);
-a,show();
+a.show();
 a.reverse();
 a.show();
 }
